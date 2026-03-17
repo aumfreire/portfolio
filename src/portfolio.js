@@ -130,23 +130,15 @@ const educationInfo = {
       logo: require("./assets/images/byuMedallionNavy.png"),
       logoPosition: "center", // Optional: center, top, bottom, left, right, or specific like "center top"
       logoScale: 1.2, // Optional: zoom factor for logo within the FIXED circle (e.g., 0.8 = zoomed out, 1.5 = zoomed in, circle size never changes)
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2021 - April 2027",
-      desc: "2x Dean's List Recipient (Top 5% of class)",
+      subHeader:
+        "Bachelor of Science: Information Systems Software Development Emphasis | STEM-Designated Technical Program",
+      duration: "Apr 2027",
+      desc: "Brigham Young University - Marriott School of Business, Provo, UT",
       descBullets: [
-        "President of BYU Developer's Club",
-        "Researched ... "
+        "GPA: 3.96",
+        "Member of the Association for Information Systems, BYU Developers Club",
+        "Relevant Courses: Business Programming (C#/.NET), Database Systems (SQL), Enterprise Web Development (React/ASP.NET), Data Communications, Machine Learning (Python), Information Security"
       ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      logoPosition: "center",
-      logoScale: 1,
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
