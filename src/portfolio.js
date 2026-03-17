@@ -51,13 +51,11 @@ const skillsSection = {
   title: "What I do",
   subTitle: "DEDICATED FULL-STACK ENGINEER WHO LOVES TO LEARN",
   skills: [
+    emoji("⚡ Develop highly interactive user interfaces for web applications"),
     emoji(
-      "⚡ Develop highly interactive user interfaces for web applications"
+      "⚡ Write hundreds of unit tests in Java and TypeScript to catch edge cases"
     ),
-    emoji("⚡ Write hundreds of unit tests in Java and TypeScript to catch edge cases"),
-    emoji(
-      "⚡ Lead teams of 2-6 programmers to deliver 6+ projects on time"
-    )
+    emoji("⚡ Lead teams of 2-6 programmers to deliver 6+ projects on time")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
