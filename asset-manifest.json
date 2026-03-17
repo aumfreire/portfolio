@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/byudev-react-eportfolio/static/css/main.a7f2df05.css",
-    "main.js": "/byudev-react-eportfolio/static/js/main.978fa19a.js",
+    "main.js": "/byudev-react-eportfolio/static/js/main.d818a494.js",
     "static/css/487.bfac3b0d.chunk.css": "/byudev-react-eportfolio/static/css/487.bfac3b0d.chunk.css",
     "static/js/487.253957c0.chunk.js": "/byudev-react-eportfolio/static/js/487.253957c0.chunk.js",
     "static/css/990.24e6fd7f.chunk.css": "/byudev-react-eportfolio/static/css/990.24e6fd7f.chunk.css",
@@ -25,7 +25,7 @@
     "index.html": "/byudev-react-eportfolio/index.html",
     "static/media/talksCardBack.svg": "/byudev-react-eportfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.a7f2df05.css.map": "/byudev-react-eportfolio/static/css/main.a7f2df05.css.map",
-    "main.978fa19a.js.map": "/byudev-react-eportfolio/static/js/main.978fa19a.js.map",
+    "main.d818a494.js.map": "/byudev-react-eportfolio/static/js/main.d818a494.js.map",
     "487.bfac3b0d.chunk.css.map": "/byudev-react-eportfolio/static/css/487.bfac3b0d.chunk.css.map",
     "487.253957c0.chunk.js.map": "/byudev-react-eportfolio/static/js/487.253957c0.chunk.js.map",
     "990.24e6fd7f.chunk.css.map": "/byudev-react-eportfolio/static/css/990.24e6fd7f.chunk.css.map",
@@ -33,6 +33,6 @@
   },
   "entrypoints": [
     "static/css/main.a7f2df05.css",
-    "static/js/main.978fa19a.js"
+    "static/js/main.d818a494.js"
   ]
 }
