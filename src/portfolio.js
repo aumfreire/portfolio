@@ -23,8 +23,8 @@ const greeting = {
   username: "Augusto Freire",
   title: "Hey, I'm Augusto!",
   subTitle: emoji(
-    "I'm an Information Systems student at Brigham Young University with an emphasis in Software Engineering. "
-  ), //I currently work as a Web Developer at BYU, writing unit tests, developing websites, and leading teams to deliver high-quality software solutions.
+    "Full-Stack Developer building scalable web applications and automation solutions using C#/.NET, React, JavaScript, Python, Node.js, and SQL."
+  ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button. this link doesn't need to be replaced to get your resume in the site. Follow the README instructions for that.
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -49,13 +49,17 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "DEDICATED FULL-STACK ENGINEER WHO LOVES TO LEARN",
+  subTitle: "FULL-STACK DEVELOPER • AUTOMATION • CLOUD SOLUTIONS",
   skills: [
-    emoji("⚡ Develop highly interactive user interfaces for web applications"),
     emoji(
-      "⚡ Write hundreds of unit tests in Java and TypeScript to catch edge cases"
+      "⚡ Build scalable web applications using C#/.NET, React, JavaScript, Node.js, and SQL"
     ),
-    emoji("⚡ Lead teams of 2-6 programmers to deliver 6+ projects on time")
+    emoji(
+      "⚡ Design automation workflows with Power Automate, PowerShell, AI-assisted tools, and ServiceNow"
+    ),
+    emoji(
+      "⚡ Translate business needs into reliable software, technical solutions, and process improvements"
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -63,48 +67,48 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "C#",
+      fontAwesomeClassname: "fas fa-code"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "React",
+      fontAwesomeClassname: "fab fa-react"
     },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
+      skillName: "Node.js",
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "python",
+      skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "SQL",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "AWS",
+      fontAwesomeClassname: "fab fa-aws"
+    },
+    {
+      skillName: "PowerShell",
+      fontAwesomeClassname: "fas fa-terminal"
+    },
+    {
+      skillName: "Microsoft 365",
+      fontAwesomeClassname: "fab fa-windows"
+    },
+    {
+      skillName: "AI",
+      fontAwesomeClassname: "fas fa-robot"
+    },
+    {
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git-alt"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -121,13 +125,13 @@ const educationInfo = {
       logoPosition: "center", // Optional: center, top, bottom, left, right, or specific like "center top"
       logoScale: 1.2, // Optional: zoom factor for logo within the FIXED circle (e.g., 0.8 = zoomed out, 1.5 = zoomed in, circle size never changes)
       subHeader:
-        "Bachelor of Science: Information Systems Software Development Emphasis | STEM-Designated Technical Program",
+        "Bachelor of Science, Information Systems | Software Development Emphasis | STEM-Designated Technical Program",
       duration: "Apr 2027",
       desc: "Brigham Young University - Marriott School of Business, Provo, UT",
       descBullets: [
-        "GPA: 3.96",
-        "Member of the Association for Information Systems, BYU Developers Club",
-        "Relevant Courses: Business Programming (C#/.NET), Database Systems (SQL), Enterprise Web Development (React/ASP.NET), Data Communications, Machine Learning (Python), Information Security"
+        "GPA: 3.9",
+        "Member of the Association for Information Systems and BYU Developers Club",
+        "Relevant Courses: C#/.NET Programming, Database Systems (SQL), Enterprise Web Development (React/ASP.NET), Data Communications, Machine Learning (Python), Information Security"
       ]
     },
     {
@@ -135,7 +139,7 @@ const educationInfo = {
       logo: require("./assets/images/ensignCollege.png"),
       logoPosition: "center",
       logoScale: 1,
-      subHeader: "Associate of Science - Software Engineering",
+      subHeader: "Associate of Science, Software Engineering",
       duration: "Apr 2024",
       desc: "Ensign College, Salt Lake City, UT",
       descBullets: [
@@ -157,11 +161,11 @@ const techStack = {
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "80%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Automation & AI",
+      progressPercentage: "85%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -173,15 +177,38 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "IT Product & Process Manager Intern",
+      company: "The Church of Jesus Christ of Latter-day Saints",
+      companylogo: require("./assets/images/churchofJC.png"),
+      date: "Jul 2026 – Present",
+      desc: "The Church of Jesus Christ of Latter-day Saints, Riverton, UT",
+      descBullets: [
+        "Cut record processing time 60%+ by developing AI and Power Automate workflows for personalized communications",
+        "Developed PowerShell and ServiceNow automations to streamline enterprise IT workflows and operational processes",
+        "Supported software lifecycle processes across application changes, deployments, testing, and production operations"
+      ]
+    },
+    {
+      role: "Information Systems Technician",
+      company: "Provo City",
+      companylogo: require("./assets/images/provocity.png"),
+      date: "Jan 2026 – Jul 2026",
+      desc: "Provo City, Provo, UT",
+      descBullets: [
+        "Built PowerShell interface for 5 technicians, automating onboarding, password resets, and user lookups",
+        "Resolved Microsoft 365, software, hardware, and network issues supporting technology across city departments"
+      ]
+    },
+    {
       role: "IT Support Specialist II",
       company: "Trucordia",
       companylogo: require("./assets/images/trucordia.png"),
       date: "Feb 2025 – Sep 2025",
       desc: "Trucordia, Lindon, UT",
       descBullets: [
-        "Developed automation scripts (AI, PowerShell, Microsoft 365), reducing manual workflows 80%, saving labor costs",
-        "Engineered secure access (Microsoft 365, Entra ID), cutting provisioning time 40%, lowering ticket volume 30%",
-        "Automated device setup and onboarding for new hires, improving accuracy and cutting processing time 94%"
+        "Reduced manual workflows 80% by developing AI and PowerShell automation, saving labor costs",
+        "Accelerated access provisioning 40% using Microsoft 365 and Entra ID, reducing ticket volume 30%",
+        "Automated device onboarding, reducing setup time 94% while improving configuration accuracy"
       ]
     },
     {
@@ -191,9 +218,9 @@ const workExperiences = {
       date: "Sep 2021 – Feb 2025",
       desc: "The Church of Jesus Christ of Latter-day Saints, Salt Lake City, UT",
       descBullets: [
-        "Managed 300+ monthly ServiceNow tickets, reducing response time 25%, maintaining a 92% satisfaction rating",
-        "Diagnosed and resolved Windows/macOS issues for 50+ users weekly, cutting downtime and restoring functionality",
-        "Maintained network connectivity, provisioned VPNs, installed printers, for 100+ users, reducing service disruptions"
+        "Managed 300+ monthly ServiceNow tickets, reducing response time 25% while maintaining a 92% satisfaction rating",
+        "Resolved Windows/macOS issues for 50+ users weekly, minimizing downtime across global operations",
+        "Maintained network connectivity, provisioned VPNs, and installed printers for 100+ users, reducing service disruptions"
       ]
     }
   ]
@@ -296,9 +323,9 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Discuss a project or just want to say hi? My inbox is open for all.",
+  number: "(385) 354-8501",
+  email_address: "augusto.mfreire@gmail.com"
 };
 
 // Twitter Section
