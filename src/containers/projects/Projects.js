@@ -16,7 +16,8 @@ export default function Projects() {
 
   useEffect(() => {
     const getRepoData = () => {
-      fetch(`${process.env.PUBLIC_URL}/profile.json`)
+      const cacheBust = `?ts=${Date.now()}`;
+      fetch(`${process.env.PUBLIC_URL}/profile.json${cacheBust}`)
         .then(result => {
           if (result.ok) {
             return result.json();

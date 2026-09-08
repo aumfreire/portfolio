@@ -20,8 +20,9 @@ export default function Profile() {
     );
     if (openSource.showGithubProfile === "true") {
       const getProfileData = () => {
+        const cacheBust = `?ts=${Date.now()}`;
         console.log("Fetching profile.json...");
-        fetch(`${process.env.PUBLIC_URL}/profile.json`)
+        fetch(`${process.env.PUBLIC_URL}/profile.json${cacheBust}`)
           .then(result => {
             console.log("Fetch result:", result.status, result.ok);
             if (result.ok) {
