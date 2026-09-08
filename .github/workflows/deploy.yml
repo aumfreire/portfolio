@@ -2,7 +2,8 @@ name: Deploy to GitHub Pages
 env:
   CI: false
   GITHUB_USERNAME: ${{ github.repository_owner }}
-  REACT_APP_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This is automatically set by Github Actions
+  # Use a PAT stored in GitHub repo secrets so the build can fetch pinned repos via GraphQL.
+  REACT_APP_GITHUB_TOKEN: ${{ secrets.REACT_APP_GITHUB_TOKEN }}
   USE_GITHUB_DATA: "true"
   # MEDIUM_USERNAME: "jakenef" # Commented out to disable Medium blog fetching
 on:
